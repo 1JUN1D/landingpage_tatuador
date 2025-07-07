@@ -1,0 +1,1164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Tu Estudio de Tatuaje Invisible en Google? - Posicionamiento Garantizado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../lidereslocales.png" type="image/x-icon">
+    <style>
+        :root {
+            --primary: #D4AF37;
+            --primary-dark: #B8941F;
+            --secondary: #0A0A0A;
+            --accent: #FF4444;
+            --white: #FFFFFF;
+            --gray-light: #F8F8F8;
+            --gray-dark: #1A1A1A;
+            --success: #00FF88;
+            --shadow-gold: 0 12px 40px rgba(212, 175, 55, 0.4);
+            --shadow-dark: 0 12px 32px rgba(0, 0, 0, 0.5);
+            --gradient-gold: linear-gradient(135deg, #D4AF37 0%, #F7D794 50%, #D4AF37 100%);
+            --gradient-dark: linear-gradient(135deg, #0A0A0A 0%, #1A1A1A 100%);
+            --gradient-red: linear-gradient(135deg, #FF4444 0%, #CC0000 100%);
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--gradient-dark);
+            color: var(--white);
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        .luxury-border {
+            position: relative;
+            padding: 4px;
+            background: var(--gradient-gold);
+            border-radius: 25px;
+            margin: 30px 0;
+        }
+
+        .luxury-border-inner {
+            background: var(--secondary);
+            border-radius: 21px;
+            padding: 50px 40px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 25px;
+        }
+        
+        /* HERO SECTION */
+        .hero {
+            text-align: center;
+            padding: 80px 0 60px;
+            position: relative;
+            background: radial-gradient(circle at center, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 250px;
+            height: 4px;
+            background: var(--gradient-gold);
+            border-radius: 2px;
+        }
+        
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.5rem, 6vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 30px;
+            background: var(--gradient-gold);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+            text-shadow: 0 0 40px rgba(212, 175, 55, 0.4);
+        }
+        
+        .subtitle {
+            font-size: clamp(1.4rem, 3.5vw, 2rem);
+            margin-bottom: 25px;
+            font-weight: 500;
+            color: var(--gray-light);
+            max-width: 900px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .pain-highlight {
+            background: linear-gradient(90deg, transparent, rgba(255, 68, 68, 0.25), transparent);
+            padding: 25px;
+            margin: 40px 0;
+            border-left: 5px solid var(--accent);
+            border-radius: 12px;
+            font-size: 1.3rem;
+            font-weight: 700;
+            color: var(--accent);
+            animation: pulse-red 2s infinite;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        @keyframes pulse-red {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.9; transform: scale(1.02); }
+        }
+        
+        /* VIDEO SECTION */
+        .video-container {
+            position: relative;
+            max-width: 950px;
+            margin: 50px auto;
+            border-radius: 25px;
+            overflow: hidden;
+            box-shadow: var(--shadow-gold);
+            border: 4px solid var(--primary);
+            width: 100%;
+            aspect-ratio: 16/9;
+        }
+
+        @media (max-width: 768px) {
+            .video-container {
+                margin: 30px auto;
+                border-radius: 20px;
+                border: 3px solid var(--primary);
+            }
+        }
+        
+        video {
+            width: 100%;
+            display: block;
+        }
+
+        /* PROBLEMA SECTION */
+        .problem-section {
+            text-align: center;
+            margin: 80px 0;
+        }
+
+        .problem-section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        .problem-visual {
+            background: var(--gradient-dark);
+            border: 3px solid var(--primary);
+            border-radius: 20px;
+            padding: 40px;
+            margin: 40px 0;
+            box-shadow: var(--shadow-dark);
+        }
+
+        .problem-visual p {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--white);
+            margin-bottom: 25px;
+        }
+
+        .google-maps-mockup {
+            background: #fff;
+            color: #333;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 25px 0;
+            text-align: left;
+            font-size: 1rem;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+        }
+
+        .map-result {
+            padding: 15px 0;
+            border-bottom: 1px solid #eee;
+            display: flex;
+            align-items: center;
+        }
+
+        .result-number {
+            background: var(--accent);
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 20px;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .your-result {
+            background: #f0f0f0;
+            color: #999;
+            font-style: italic;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* TESTIMONIOS */
+        .testimonials {
+            margin: 80px 0;
+        }
+
+        .testimonials h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        .testimonial-card {
+            background: var(--gradient-dark);
+            border: 3px solid var(--primary);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            box-shadow: var(--shadow-gold);
+            transition: transform 0.3s ease;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-15px);
+        }
+
+        .testimonial-quote {
+            font-size: 1.3rem;
+            font-style: italic;
+            margin-bottom: 25px;
+            color: var(--gray-light);
+            line-height: 1.7;
+        }
+
+        .testimonial-author {
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+        }
+
+        .testimonial-image-wrapper {
+            border: 4px solid var(--primary);
+            border-radius: 15px;
+            overflow: hidden;
+            aspect-ratio: 16 / 9;
+            margin-top: 20px;
+        }
+
+        .testimonial-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* SERVICIOS */
+        .services {
+            margin: 80px 0;
+        }
+
+        .services h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            text-align: center;
+            margin-bottom: 50px;
+            text-transform: uppercase;
+        }
+
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin: 40px 0;
+        }
+
+        .service-item {
+            background: rgba(212, 175, 55, 0.15);
+            border: 2px solid var(--primary);
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+
+        .service-item:hover {
+            background: rgba(212, 175, 55, 0.25);
+            transform: scale(1.05);
+            box-shadow: var(--shadow-gold);
+        }
+
+        .service-check {
+            color: var(--success);
+            font-size: 2rem;
+            margin-right: 15px;
+        }
+
+        .service-text {
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        /* GARANTÍA */
+        .guarantee {
+            background: var(--gradient-dark);
+            border: 4px solid var(--success);
+            border-radius: 25px;
+            padding: 50px;
+            text-align: center;
+            margin: 80px 0;
+            box-shadow: 0 0 40px rgba(0, 255, 136, 0.3);
+        }
+
+        .guarantee h2 {
+            font-family: 'Playfair Display', serif;
+            color: var(--success);
+            font-size: 2.3rem;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+        }
+
+        .guarantee p {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        /* PRECIOS */
+        .pricing {
+            background: var(--luxury-border);
+            border-radius: 25px;
+            padding: 4px;
+            margin: 80px 0;
+        }
+
+        .pricing-inner {
+            background: var(--secondary);
+            border-radius: 21px;
+            padding: 50px;
+            text-align: center;
+        }
+
+        .pricing h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5rem;
+            color: var(--primary);
+            margin-bottom: 40px;
+            text-transform: uppercase;
+        }
+
+        .price-box {
+            background: rgba(212, 175, 55, 0.15);
+            border: 3px solid var(--primary);
+            border-radius: 20px;
+            padding: 10px;
+            margin: 40px 0;
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .price-original {
+            font-size: 1.8rem;
+            color: var(--accent);
+            text-decoration: line-through;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .price-amount {
+            font-size: 1.5rem;
+            font-weight: 200;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .price-description {
+            font-size: 1.2rem;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .offer-timer {
+            background: var(--gradient-red);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            margin: 25px 0;
+            font-weight: 800;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            animation: pulse-urgency 2s infinite;
+        }
+
+        @keyframes pulse-urgency {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.03); }
+        }
+
+        .roi-calculation {
+            background: rgba(0, 255, 136, 0.15);
+            border: 2px solid var(--success);
+            border-radius: 15px;
+            padding: 30px;
+            margin: 40px 0;
+        }
+
+        /* CTA BUTTONS */
+        .cta-button {
+            background: var(--gradient-gold);
+            color: var(--secondary);
+            border: none;
+            padding: 22px 50px;
+            font-size: 1.3rem;
+            font-weight: 800;
+            border-radius: 60px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: var(--shadow-gold);
+            position: relative;
+            overflow: hidden;
+            min-width: 350px;
+            margin: 25px auto;
+            display: block;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 50px rgba(212, 175, 55, 0.5);
+        }
+
+        .cta-button::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+            transition: 0.5s;
+        }
+
+        .cta-button:hover::before {
+            left: 100%;
+        }
+
+        /* URGENCIA */
+        .urgency-section {
+            background: var(--gradient-red);
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            margin: 50px 0;
+            animation: pulse-urgency 3s infinite;
+        }
+
+        .urgency-section h3 {
+            font-size: 2rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+        }
+
+        /* OVERLAY DE INICIO DEL VIDEO */
+        .video-start-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.9) 0%, rgba(10, 10, 10, 0.9) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 1.8rem;
+            text-align: center;
+            cursor: pointer;
+            z-index: 10;
+            border-radius: 21px;
+        }
+
+        .play-icon {
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+            transition: all 0.3s ease;
+        }
+
+        .play-icon:hover {
+            transform: scale(1.1);
+            background: white;
+        }
+
+        .play-triangle {
+            width: 0;
+            height: 0;
+            border-left: 30px solid var(--primary);
+            border-top: 18px solid transparent;
+            border-bottom: 18px solid transparent;
+            margin-left: 10px;
+        }
+
+        .video-start-text {
+            font-family: 'Playfair Display', serif;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+        .video-start-subtitle {
+            font-size: 1.3rem;
+            font-weight: 400;
+        }
+
+        /* OVERLAY DE PAUSA DEL VIDEO */
+        .video-pause-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            display: none;
+            z-index: 15;
+            text-align: center;
+            border-radius: 21px;
+            min-height: 300px;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .pause-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            max-width: 65%;
+            margin-bottom: 0;
+            text-align: left;
+            flex: none;
+        }
+
+        .pause-title {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(1.4rem, 4vw, 2.3rem);
+            color: var(--primary);
+            margin-bottom: 100px;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1.2;
+        }
+
+        .pause-message {
+            font-size: clamp(1.1rem, 3vw, 1.4rem);
+            margin-bottom: 15px;
+            color: var(--gray-light);
+            font-weight: 600;
+            line-height: 1.4;
+        }
+
+        .urgency-text {
+            color: var(--accent);
+            font-weight: 700;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            animation: pulse-red 2s infinite;
+            margin-bottom: 25px;
+        }
+
+        .resume-btn {
+            background: var(--gradient-gold);
+            color: var(--secondary);
+            border: none;
+            padding: 15px 30px;
+            font-size: clamp(1rem, 2.5vw, 1.2rem);
+            font-weight: 700;
+            border-radius: 50px;
+            cursor: pointer;
+            text-transform: uppercase;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-gold);
+            min-width: 140px;
+            width: auto;
+            max-width: 180px;
+            margin-left: -20px;
+            margin-bottom: 20px;
+        }
+
+        .resume-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 8px 25px rgba(212, 175, 55, 0.5);
+        }
+
+        /* RESPONSIVE PARA MÓVILES */
+        @media (max-width: 768px) {
+            .video-pause-overlay {
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 15px;
+                min-height: 220px;
+            }
+            
+            .pause-content {
+                max-width: 60%;
+            }
+            
+            .resume-btn {
+                min-width: 110px;
+                width: auto;
+                font-size: 0.9rem;
+                padding: 10px 15px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .video-pause-overlay {
+                min-height: 280px;
+                padding: 15px;
+            }
+            
+            .resume-btn {
+                padding: 10px 20px;
+                font-size: 0.9rem;
+                min-width: 180px;
+            }
+        }
+
+        /* FINAL CTA */
+        .final-cta {
+            text-align: center;
+            margin: 100px 0;
+            padding: 80px 40px;
+            background: radial-gradient(circle, rgba(212, 175, 55, 0.15) 0%, transparent 70%);
+            border-radius: 25px;
+        }
+
+        .final-cta h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: clamp(2.2rem, 4vw, 3.2rem);
+            color: var(--primary);
+            margin-bottom: 40px;
+            line-height: 1.3;
+            text-transform: uppercase;
+        }
+
+        .final-cta .offer-box {
+            background: var(--gradient-dark);
+            border: 4px solid var(--primary);
+            border-radius: 25px;
+            padding: 0px;
+            margin: 40px 0;
+            box-shadow: var(--shadow-gold);
+        }
+
+        .offer-title {
+            font-size: 1.7rem;
+            font-weight: 800;
+            color: var(--primary);
+            margin-bottom: 30px;
+            text-transform: uppercase;
+        }
+
+        .offer-list {
+            list-style: none;
+            margin: 30px 0;
+        }
+
+        .offer-list li {
+            font-size: 1.3rem;
+            margin: 15px 0;
+            color: var(--gray-light);
+            font-weight: 600;
+        }
+
+        .offer-list li::before {
+            content: '🔥';
+            margin-right: 15px;
+        }
+
+        /* FOOTER */
+        footer {
+            background: var(--gray-dark);
+            text-align: center;
+            padding: 50px 0;
+            margin-top: 100px;
+            border-top: 4px solid var(--primary);
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            
+            .luxury-border-inner {
+                padding: 30px 25px;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .cta-button {
+                min-width: 300px;
+                padding: 18px 35px;
+                font-size: 1.2rem;
+            }
+        }
+
+        /* ANIMACIONES LUXURY */
+        @keyframes shimmer {
+            0% { background-position: -200% center; }
+            100% { background-position: 200% center; }
+        }
+
+        .shimmer-text {
+            background: linear-gradient(90deg, var(--primary) 25%, var(--white) 50%, var(--primary) 75%);
+            background-size: 200% auto;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: shimmer 3s linear infinite;
+        }
+
+        .tattoo-needle {
+            color: var(--accent);
+            font-size: 1.5rem;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h1>¿Sabes cuántos clientes potenciales buscaron un tatuador en tu ciudad AYER y fueron donde tu competencia?</h1>
+            <p class="subtitle">Descubre el sistema que transformó a Gabbo Flórez en <strong>EL TATUADOR MÁS BUSCADO</strong> de su zona</p>
+            
+            <div class="pain-highlight">
+                <strong>🔥 En este video te muestro cómo llenar tu agenda sin gastar ni un peso más en publicidad 🔥</strong>
+            </div>
+
+            <!-- VIDEO TESTIMONIAL -->
+            <div class="video-container">
+                <video id="mainVideo" playsinline>
+                    <source src="../Video_Fiver_Español.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento video.
+                </video>
+                
+                <!-- OVERLAY DE INICIO -->
+                <div class="video-start-overlay" id="videoStartOverlay">
+                    <div class="video-start-text">Seguir viendo</div>
+                    <div class="play-icon">
+                        <div class="play-triangle"></div>
+                    </div>
+                    <div class="video-start-subtitle">🔊 Activa el sonido</div>
+                </div>
+                
+                <!-- OVERLAY DE PAUSA -->
+                <div class="video-pause-overlay" id="videoPauseOverlay">
+                    <div class="pause-content">
+                        <h3 class="pause-title">⚠️ Información Crítica Para Tu Estudio</h3>
+                    </div>
+                    <button class="resume-btn" id="resumeVideoBtn">Continuar Viendo</button>
+                </div>
+            </div>
+
+            <button class="cta-button">Quiero aparecer primero en Google</button>
+        </section>
+
+        <!-- PROBLEMA VISUAL -->
+        <section class="problem-section">
+            <h2>Esto Es Lo Que Ven Tus Clientes Cuando Buscan Tatuadores</h2>
+            
+            <div class="problem-visual">
+                <p><strong>Búsqueda: "tatuadores en Cali" / "estudio de tatuajes Medellín"</strong></p>
+                
+                <div class="google-maps-mockup">
+                    <div class="map-result">
+                        <span class="result-number">1</span>
+                        <div>
+                            <strong>Ink Studio Competencia</strong><br>
+                            ⭐⭐⭐⭐⭐ 4.9 (200+ reseñas)<br>
+                            📞 <strong>¡TODOS LLAMAN AQUÍ!</strong>
+                        </div>
+                    </div>
+                    <div class="map-result">
+                        <span class="result-number">2</span>
+                        <div>
+                            <strong>Tattoo Art Competencia</strong><br>
+                            ⭐⭐⭐⭐⭐ 4.7 (150+ reseñas)<br>
+                            📞 <strong>¡Y AQUÍ TAMBIÉN!</strong>
+                        </div>
+                    </div>
+                    <div class="map-result">
+                        <span class="result-number">3</span>
+                        <div>
+                            <strong>Black Ink Competencia</strong><br>
+                            ⭐⭐⭐⭐ 4.5 (120+ reseñas)<br>
+                            📞 <strong>¡AGENDA LLENA!</strong>
+                        </div>
+                    </div>
+                    <div class="map-result your-result">
+                        <span class="result-number">❌</span>
+                        <div>
+                            <strong>TU ESTUDIO DE TATUAJES</strong><br>
+                            👻 INVISIBLE - Nadie te encuentra<br>
+                            📵 Cero clientes nuevos - Solo esperas que lleguen por referencias
+                        </div>
+                    </div>
+                </div>
+                
+                <p style="color: var(--accent); font-weight: 800; margin-top: 25px; font-size: 1.3rem;">
+                    El 80% de las personas hace clic en los primeros 3 resultados. <br>
+                    <strong>Si no estás ahí, SIMPLEMENTE NO EXISTES para miles de clientes potenciales.</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- TESTIMONIO -->
+        <section class="testimonials">
+            <h2>El Testimonio Que Cambió Todo</h2>
+            
+            <div class="testimonial-card">
+                <p class="testimonial-quote">"Lo que más me emociona no es solo el dinero, sino que ahora la gente viene específicamente por MIS diseños. Me encuentran en Google, ven mi trabajo y dicen 'quiero que ME tatúes TÚ'. Esa sensación no tiene precio."</p>
+                <p class="testimonial-author">🎨 Gabbo Flórez - Tatuador Profesional</p>
+                <div class="testimonial-image-wrapper">
+                    <img src="../gabriel.jpg" alt="Testimonio Gabbo Flórez Tatuador" class="testimonial-image">
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICIOS -->
+        <section class="services luxury-border">
+            <div class="luxury-border-inner">
+                <h2>Todo Lo Que Hacemos Para Posicionar Tu Estudio</h2>
+                
+                <div class="services-grid">
+                    <div class="service-item">
+                        <span class="service-check">✅</span>
+                        <div class="service-text">
+                            <strong>Perfil de Google Business optimizado al 100%</strong><br>
+                            Para que Google te entienda como el mejor tatuador de tu zona
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-check">✅</span>
+                        <div class="service-text">
+                            <strong>Sitio web profesional completo con tu dominio</strong><br>
+                            Tu nombre.com funcionando perfectamente - Sin que tú hagas nada técnico
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-check">✅</span>
+                        <div class="service-text">
+                            <strong>Publicaciones constantes de tus trabajos</strong><br>
+                            Subimos fotos de tus tatuajes cada semana para mostrar tu arte
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-check">✅</span>
+                        <div class="service-text">
+                            <strong>Posicionamiento TOP 3 garantizado en 2 meses</strong><br>
+                            O te devolvemos CADA PESO que hayas pagado
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-check">✅</span>
+                        <div class="service-text">
+                            <strong>Reportes semanales con resultados</strong><br>
+                            Para que veas cómo vas subiendo posiciones día a día
+                        </div>
+                    </div>
+                    <div class="service-item">
+                        <span class="service-check">✅</span>
+                        <div class="service-text">
+                            <strong>Tu estudio en todos los directorios importantes</strong><br>
+                            Donde Google busca confirmación de que eres el mejor
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- GARANTÍA -->
+        <section class="guarantee">
+            <h2>🛡️ Nuestra Garantía Blindada de Resultados</h2>
+            <p><strong>"Si en 2 meses tu estudio de tatuajes no está posicionado en los primeros 3 lugares de Google para las búsquedas de tatuadores en tu ciudad, te devolvemos el 100% de tu dinero. Sin preguntas. Sin excusas. Sin letra pequeña."</strong></p>
+            <p style="color: var(--success); margin-top: 20px;">Somos tan buenos en lo que hacemos que ponemos nuestro dinero donde está nuestra boca.</p>
+        </section>
+
+        <!-- PRECIOS CON OFERTA ESPECIAL -->
+        <section class="pricing">
+            <div class="pricing-inner">
+                <h2>¿Cuánto Vale Tener Tu Agenda Llena Cada Día?</h2>
+                
+                <div class="offer-timer">
+                    ⏰ OFERTA ESPECIAL HASTA EL VIERNES 11 DE JULIO ⏰
+                </div>
+                
+                <div class="price-box">
+                    <div class="price-original">Antes: $3.000.000 COP</div>
+                    <div class="price-amount">AHORA: $1.200.000 COP</div>
+                    <div class="price-description">Implementación Completa (2 meses)</div>
+                    <p><strong>✅ Incluye tu sitio web con dominio personalizado</strong></p>
+                    <p><strong>✅ Todo el sistema funcionando en 60 días</strong></p>
+                    <p><strong>✅ Posicionamiento garantizado TOP 3</strong></p>
+                </div>
+                
+                <div class="price-box">
+                    <div class="price-amount">$100.000 COP</div>
+                    <div class="price-description">Mantenimiento mensual</div>
+                    <p>Para mantenerte siempre en el TOP 3 después de los 2 meses</p>
+                </div>
+                
+                <div class="roi-calculation">
+                    <h3 style="color: var(--success); margin-bottom: 20px;">💰 Recupera Tu Inversión En Menos De 1 Mes</h3>
+                    <p><strong>Con pocos tatuajes recuperas toda tu inversión.</strong></p>
+                    <p><strong>Nuestros clientes empiezan a recibir llamadas desde la semana 2-3.</strong></p>
+                    <p style="color: var(--primary); font-weight: 700; margin-top: 15px;">
+                        Gabbo Flórez triplicó sus ingresos en 60 días. ¿Cuánto vale eso para ti?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- URGENCIA -->
+        <section class="urgency-section">
+            <h3>⚠️ Cada Día Que Esperes, Pierdes Clientes</h3>
+            <p><strong>🔥 Mientras tú lo piensas, tus competidores se quedan con TUS clientes potenciales</strong></p>
+            <p><strong>📱 Cada búsqueda de "tatuadores en tu ciudad" que no contestas es dinero perdido</strong></p>
+            <p><strong>🏆 Otros estudios implementan sistemas como el nuestro y dominan TU mercado</strong></p>
+            <p style="color: var(--primary); font-size: 1.4rem; margin-top: 20px;">
+                <strong>El viernes 11 de julio esta oferta DESAPARECE para siempre.</strong>
+            </p>
+        </section>
+
+        <!-- FINAL CTA -->
+        <section class="final-cta">
+            <h2 class="shimmer-text">¿Listo Para Ser EL Tatuador Más Buscado de Tu Ciudad?</h2>
+            
+            <div class="offer-box">
+                <div class="offer-title">🔥 SOLO para los primeros 10 tatuadores que nos escriban HOY:</div>
+                
+                <ul class="offer-list">
+                    <li><strong>Análisis GRATUITO y detallado</strong> de cómo está posicionado tu estudio actualmente en Google</li>
+                    <li><strong>Te mostramos exactamente</strong> por qué no apareces y cómo arreglarlo</li>
+                    <li><strong>Plan personalizado</strong> para dominar las búsquedas en Cali, Medellín, Bogotá, Cúcuta, Bucaramanga, Barranquilla o Cartagena</li>
+                    <li><strong>Estrategia específica</strong> para que aparezcan tus mejores trabajos cuando te busquen</li>
+                </ul>
+                
+                <p style="font-size: 1.2rem; margin-top: 25px; color: var(--accent); font-weight: 800;">
+                    <strong>⚠️ Solo quedan pocos cupos. La oferta del 60% de descuento vence el viernes 11 de julio.</strong>
+                </p>
+                
+                <p style="font-size: 1.1rem; margin-top: 15px; color: var(--gray-light);">
+                    <strong>Cada día que esperes, tu competencia se queda con más clientes que deberían ser TUYOS.</strong>
+                </p>
+            </div>
+
+            <button class="cta-button" id="whatsappCTA">Escribir al WhatsApp Ahora</button>
+            
+            <p style="margin-top: 20px; font-size: 1rem; color: var(--gray-light);">
+                <strong>Respuesta en menos de 10 minutos • Consulta gratuita • Sin compromiso</strong>
+            </p>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2025 CUSIG | Posicionamiento SEO Local para Tatuadores | Todos los derechos reservados</p>
+        <p style="margin-top: 10px; color: var(--primary);">
+            <strong>Especializados en Cali • Medellín • Bogotá • Cúcuta • Bucaramanga • Barranquilla • Cartagena</strong>
+        </p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // WhatsApp CTA functionality
+            const whatsappButtons = document.querySelectorAll('.cta-button');
+            
+            whatsappButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    // Cambiar texto del botón
+                    button.textContent = '🔥 ¡Abriendo WhatsApp...!';
+                    button.style.background = 'linear-gradient(135deg, #25D366 0%, #20B354 100%)';
+                    
+                    // Configurar WhatsApp
+                    const phoneNumber = '+573126865031';
+                    const message = 'Hola! Vi tu página sobre posicionamiento para tatuadores. Quiero que mi estudio aparezca primero en Google como Gabbo Flórez. ¿Puedes mostrarme cómo está mi negocio actualmente y cómo puedo dominar mi zona? 🎨⚡';
+                    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+                    
+                    setTimeout(() => {
+                        if(isMobile) {
+                            window.location.href = `whatsapp://send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`;
+                        } else {
+                            window.open(`https://web.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(message)}`, '_blank');
+                        }
+                        
+                        // Restaurar botón después de 3 segundos
+                        setTimeout(() => {
+                            button.textContent = 'Escribir al WhatsApp Ahora';
+                            button.style.background = '';
+                        }, 3000);
+                    }, 800);
+                });
+            });
+
+            // Contador regresivo hasta el viernes 11 de julio
+            function updateCountdown() {
+                const deadline = new Date('2025-07-11T23:59:59');
+                const now = new Date();
+                const timeLeft = deadline - now;
+                
+                if (timeLeft > 0) {
+                    const days = Math.floor(timeLeft / (1000 * 60 * 60 * 24));
+                    const hours = Math.floor((timeLeft % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                    const minutes = Math.floor((timeLeft % (1000 * 60 * 60)) / (1000 * 60));
+                    
+                    const timerElements = document.querySelectorAll('.offer-timer');
+                    timerElements.forEach(timer => {
+                        timer.innerHTML = `⏰ OFERTA ESPECIAL: ${days}d ${hours}h ${minutes}m RESTANTES ⏰`;
+                    });
+                } else {
+                    const timerElements = document.querySelectorAll('.offer-timer');
+                    timerElements.forEach(timer => {
+                        timer.innerHTML = '🔥 ¡OFERTA EXPIRADA! Contacta para precio regular 🔥';
+                        timer.style.background = 'var(--gradient-red)';
+                    });
+                }
+            }
+            
+            // Actualizar contador cada minuto
+            updateCountdown();
+            setInterval(updateCountdown, 60000);
+
+            // Animación de aparición suave
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            // Aplicar animaciones a elementos
+            document.querySelectorAll('.testimonial-card, .service-item, .price-box, .guarantee').forEach(el => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(30px)';
+                el.style.transition = 'all 0.6s ease';
+                observer.observe(el);
+            });
+        });
+
+        // FUNCIONALIDAD DEL VIDEO CON OVERLAYS
+        const mainVideo = document.getElementById('mainVideo');
+        const videoStartOverlay = document.getElementById('videoStartOverlay');
+        const videoPauseOverlay = document.getElementById('videoPauseOverlay');
+        const resumeVideoBtn = document.getElementById('resumeVideoBtn');
+
+        // Iniciar video al hacer clic en overlay de inicio
+        videoStartOverlay.addEventListener('click', function() {
+            mainVideo.muted = false; // Activar sonido
+            mainVideo.play();
+            videoStartOverlay.style.display = 'none';
+            mainVideo.setAttribute('controls', 'true'); // Mostrar controles
+        });
+
+        // Mostrar overlay cuando se pausa el video
+        mainVideo.addEventListener('pause', function() {
+            // Solo mostrar overlay si el video no ha terminado
+            if (mainVideo.currentTime < mainVideo.duration - 1) {
+                videoPauseOverlay.style.display = 'flex';
+            }
+        });
+
+        // Ocultar overlay cuando se reproduce el video
+        mainVideo.addEventListener('play', function() {
+            videoPauseOverlay.style.display = 'none';
+        });
+
+        // Botón para reanudar video
+        resumeVideoBtn.addEventListener('click', function() {
+            videoPauseOverlay.style.display = 'none';
+            mainVideo.play();
+        });
+
+        // Ocultar overlay cuando el video termina
+        mainVideo.addEventListener('ended', function() {
+            videoPauseOverlay.style.display = 'none';
+        });
+
+        // FUNCIONALIDAD DE PANTALLA COMPLETA Y ROTACIÓN
+        function requestFullscreenAndRotate() {
+            const video = document.getElementById('mainVideo');
+            
+            // Solicitar pantalla completa
+            if (video.requestFullscreen) {
+                video.requestFullscreen();
+            } else if (video.webkitRequestFullscreen) { // Safari
+                video.webkitRequestFullscreen();
+            } else if (video.msRequestFullscreen) { // IE/Edge
+                video.msRequestFullscreen();
+            }
+            
+            // Solicitar orientación horizontal (solo funciona en algunos navegadores móviles)
+            if (screen.orientation && screen.orientation.lock) {
+                screen.orientation.lock('landscape').catch(function(error) {
+                    console.log('No se pudo bloquear la orientación:', error);
+                });
+            }
+        }
+
+        // Detectar cuando se sale de pantalla completa para restaurar orientación
+        document.addEventListener('fullscreenchange', function() {
+            if (!document.fullscreenElement) {
+                // Liberar bloqueo de orientación al salir de pantalla completa
+                if (screen.orientation && screen.orientation.unlock) {
+                    screen.orientation.unlock();
+                }
+            }
+        });
+
+        // Agregar doble clic al video para pantalla completa
+        mainVideo.addEventListener('dblclick', requestFullscreenAndRotate);
+    </script>
+</body>
+</html>
